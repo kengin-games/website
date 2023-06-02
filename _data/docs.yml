@@ -2,13 +2,6 @@
   docs:
   - home
   - installation
-  - themes
-
-- title: Examples
-  docs:
-  - cheatsheet
-  - font-awesome
-  - bootstrap
 
 - title: Tutorials
   docs:

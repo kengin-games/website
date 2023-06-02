@@ -1,5 +1,5 @@
 ---
-title: Tutorial1
+title: "First tutorial"
 permalink: /docs/tutorial1/
 ---
 
