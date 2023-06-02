@@ -1,22 +1,20 @@
 # Site settings
-title: Jekyll Doc Theme
-email: your-email@domain.com
+title: Kengin game engine
+#email: your-email@domain.com
 description: >
-  Jekyll Template for Project Websites
-  providing documentation and blog post pages.
-lang: en-US
+  Data driven game engine for large scale worlds
+lang: en-UK
 
 baseurl: ""
 url: https://kengin.games # the base hostname & protocol for your site
 #baseurl: "/jekyll-doc-theme" # the subpath of your site, e.g. /blog/
 #url: https://kengin-games.github.io/website # the base hostname & protocol for your site
-git_address: https://github.com/aksakalli/jekyll-doc-theme
-git_edit_address: https://github.com/aksakalli/jekyll-doc-theme/blob/gh-pages
+git_address: https://kengin-games.github.io/website
+git_edit_address: https://kengin-games.github.io/website/blob/main
 
 # theme options from https://bootswatch.com/3/
 # comment out this to use default Bootstrap
-#bootwatch: paper # cerulean cosmo custom cyborg darkly flatly journal lumen readable sandstone simplex slate solar spacelab superhero united yeti
-bootwatch: flatly
+bootwatch: flatly # cerulean cosmo custom cyborg darkly paper journal lumen readable sandstone simplex slate solar spacelab superhero united yeti
 
 # Build settings
 markdown: kramdown

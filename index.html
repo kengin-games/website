@@ -5,7 +5,7 @@ layout: default
 <div class="header-container jumbotron">
     <div class="container">
         <h1>Kengin game engine</h1>
-        <p>Kengin is a data-driven, distributed game engine for creating highly connected worlds.</p>
+        <p>Data-driven game engine</p>
         <p><a class="btn btn-primary btn-lg" href="{{ "/docs/home/" | relative_url }}" role="button">Learn more</a></p>
     </div>
 </div>
@@ -18,8 +18,8 @@ layout: default
                 Kengin is a data-driven, distributed game engine. The main use case is highly 
                 connected worlds (like creating a metaverse and large multi-player worlds).
 
-                It’s primary language is <a href="https://www.rust-lang.org/">Rust</a>, but other 
-                languages can be used in the processing pipeline.
+                The primary coding language is <a href="https://www.rust-lang.org/">Rust</a>, but 
+                other languages can be used in the processing pipeline.
               </p>
               <p class="lead">Jekyll is a simple, blog-aware, static site generator. It takes a template
               directory containing raw text files in various formats, runs it through
@@ -33,27 +33,70 @@ layout: default
         </div>
         <div class="col-md-6 text-center">
             <img src="{{ "/assets/img/jekyll-dark.png" | relative_url }}" alt="Jekyll logo" class="img-responsive">
+            <img src="{{ "/assets/img/rustacean-flat-happy.png" | relative_url }}" alt="Rust logo" class="img-responsive">
         </div>
     </div>
     <hr>
     <div class="row">
         <div class="col-sm-4">
-            <h1 class="text-center"><i class="fa fa-pencil" aria-hidden="true"></i></h1>
-            <h3 class="text-center">Easy to install and publish</h3>
-            <p>Get started by cloning source into GitHub account of your project. Thanks to <a href="https://pages.github.com">GitHub Pages</a>,
-              it will be automatically compiled and published under your account's (or organisation's) subdomain under <code>github.io</code>.
+            <h1 class="text-center"><i class="fa fa-gamepad" aria-hidden="true"></i></h1>
+            <h3 class="text-center">Easy to create and publish games</h3>
+            <p>
+                Easy to get started. Using Rust Cargo's build system, running your game can be as
+                simple as <code>cargo run</code>.
             </p>
         </div>
         <div class="col-sm-4">
             <h1 class="text-center"><i class="fa fa-cogs" aria-hidden="true"></i></h1>
-            <h3 class="text-center">Modular Styling and Templating</h3>
-            <p>This template uses <a href="https://github.com/twbs/bootstrap-sass">bootstrap-sass</a> along with <a href="https://bootswatch.com/">Bootwatch themes</a>.
-            You can change the theme or write your custom one by overwriting bootstrap sass variables for a different color set, font options, etc.</p>
+            <h3 class="text-center">Highly scaleable</h3>
+            <p>
+                Flexible architecture where parts of the system independently leading to lower 
+                server costs. No overhead for parts of the system you don’t use
+            </p>
         </div>
         <div class="col-sm-4">
-            <h1 class="text-center"><i class="fa fa-code-fork" aria-hidden="true"></i></h1>
-            <h3 class="text-center">Git-based source control</h3>
-            <p>Use Git version control to make maintaining your game easier.</p>
+            <h1 class="text-center"><i class="fa fa-globe" aria-hidden="true"></i></h1>
+            <h3 class="text-center">Publish your worlds</h3>
+            <p>
+                Distribute game worlds over cloud, edge servers and clients - letting players access
+                create large, responsive worlds.
+            </p>
         </div>
     </div>
+    <div class="row">
+        <div class="col-sm-4">
+            <h1 class="text-center"><i class="fa fa-code" aria-hidden="true"></i></h1>
+            <h3 class="text-center">Why Rust?</h3>
+            <p>
+                Each language has it’s own strengths, but we chose Rust because:
+                <ul>
+                    <li>it has very little runtime overhead</li>
+                    <li>it has comparable performance to other low level languages (C and C++)</li>
+                    <li>it’s largely memory safe</li>
+                    <li>it supports many targets (e.g. WASM)</li>
+                    <li>it has a great package manager (Cargo) which helps with a loosely coupled project</li>
+                    <li>it’s a well designed language with a great community</li>
+                </ul>
+            </p>
+        </div>
+        <div class="col-sm-4">
+            <h1 class="text-center"><i class="fa fa-clock-o" aria-hidden="true"></i></h1>
+            <h3 class="text-center">When can I use Kengin?</h3>
+            <p>
+                We are hard at work preparing the initial release of Kengin. The current focus is on 
+                creating an incrediably efficient underlying data flow which will underpin the rest 
+                of the engine.
+            </p>
+            <p>
+                The beta release will go public in late 2023. Please check back often for updates!
+            </p>
+        </div>
+        <div class="col-sm-4">
+            <h3 class="text-center">&nbsp;</h3>
+            <p>
+                &nbsp;
+            </p>
+        </div>
+    </div>
+    <hr>
 </div>
