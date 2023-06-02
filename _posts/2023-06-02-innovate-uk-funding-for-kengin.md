@@ -3,15 +3,16 @@ layout: post
 title:  "Kengin awarded Innovate UK funding"
 author: kevthecoder
 ---
-We are delighted to announce we have received funding for the 
-[DCMS Create Growth fund][dcms-create-growth]!
+We are delighted to announce we have received funding from the 
+[DCMS Create Growth fund][dcms-create-growth] from Innovate UK!
 
-This funding will allow us to create the Kengin Metaverse MVP which is a game 
-engine that is purpose built to support large worlds with many players.
+This funding will allow us to create the Kengin Metaverse MVP to let game
+designers build new worlds.
 
-We make it easy to create and deploy new games, enabling fast iteration of 
-interactive experiences. The project supports creative play, allowing users to 
-create and mix content in real time.
+Kengin is a game engine that is purpose built to support large worlds with many 
+players. We make it easy to create and deploy new games, enabling fast iteration 
+of interactive experiences. The project supports creative play, allowing users 
+to create and mix content in real time.
 
 This project focuses on building out the core services. This consists of an 
 adaptive client app that sits on the user's computer which connects to a 

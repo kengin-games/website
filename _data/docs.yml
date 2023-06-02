@@ -1,11 +1,15 @@
 - title: Getting Started
   docs:
   - home
+  - installation
   - themes
-  - customization
 
 - title: Examples
   docs:
   - cheatsheet
   - font-awesome
   - bootstrap
+
+- title: Tutorials
+  docs:
+  - tutorial1
