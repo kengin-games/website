@@ -1,0 +1,1 @@
+Storage for blog posts in progress that aren't ready for release.
