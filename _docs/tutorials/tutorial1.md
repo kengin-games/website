@@ -15,11 +15,11 @@ To create a new Package:
   button.
 - Check the details and click the 'Create' button to finish making the Package.
 
-If you look in the directory you used above you'll find some new files and
-subdirectories have been added:
+If you look in the directory selected above you'll see some new files and
+subdirectories have been added including:
 
-- `assets/` subdirectory: This contains your static scene data like `usda` files
-  and textures
+- `assets/` subdirectory: This contains your static scene data like `.usda`
+  files and textures
 - `experiences/` subdirectory: This contains the Experiences contained within
   the Package.
 
@@ -33,15 +33,16 @@ can place any `.usda` file in the `assets/` subdirectory of the Package. Most
 modern 3d tools like Blender and Maya let you export your scene in `.usda`
 format. When copying the `.usda` file to the `assets/` subdirectory of the
 Package, don't forget to include any subdirectories which contain textures or
-other related files.
+other related scene files.
 
 To create a new Experience in the Kengin Editor:
 
-- Go to the Experiences menu and select 'New Experience'. If you can't see this
-  menu, make sure you have a Package open in the Editor.
+- Go to the Experiences menu and select 'New Experience'. If you can't see the
+  Experiences menu, make sure you have a Package open in the Editor.
 - Select the `.usda` file which contains your main scene data using the file
-  picker. It should be in the `assets/` subdirectory.
-- Give your Experience a name.
+  picker. It should be in the `assets/` subdirectory of your Package. Click 
+  'Next'
+- Give your Experience a name and click 'Next'.
 - Check the details and click 'Create'.
 
 You will now have an Experience in your Package. You can add more Experiences
